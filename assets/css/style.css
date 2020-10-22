@@ -2540,7 +2540,7 @@ hr {
   .all-starups-area .starups {
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 100%;
     padding: 0 9%;
     background-image: url(../img/gallery/section_bg01.png);
     background-size: cover;
@@ -2633,8 +2633,9 @@ hr {
             .all-starups-area .starups .starups-details .starups-list ul li p {
               padding-left: 9px; } }
   .all-starups-area .starups-img {
-    width: 50%;
-    background-image: url(../img/gallery/startup.png);
+    /** width: 50%;  **/
+    width: 100%;
+    background-image: url(../img/gallery/q_2.jpg);
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
